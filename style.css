@@ -1,0 +1,86 @@
+body {
+	background-color: #777;
+	color: #ebebeb;
+	font-family: "arial", "Helvetica neue", "helvetica", "sans-serif";
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+	width: 960px;
+}
+
+aside, footer, header, nav, section {
+	background-color: #ebebeb;
+	color: #777;
+	padding: 15px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+aside, section {
+	float: left;
+	height: 300px;
+}
+
+section {
+	width: 630px;
+	margin-bottom: 15px;
+}
+
+article {
+	background-color: #777;
+	color: #ebebeb;
+	padding: 15px;
+	margin-top: 15px;
+}
+
+article h1, article h2, article h3{
+	display: inline-block;
+	font-size: 20px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: 500;
+	line-height: 1.1;
+	font-family: inherit;
+	color: inherit;
+}
+
+h1 {
+	margin: .67em 0;
+}
+
+article div, article p {
+	background-color: #ebebeb;
+	color: #777;
+	padding: 15px;
+	margin-top: 15px;
+}
+
+aside, footer, header, nav, section {
+	background-color: #ebebeb;
+	color: #777;
+	padding: 15px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+aside {
+	width: 255px;
+	margin-left: 15px;
+	float: right;
+	height: 300px;
+}
+
+footer{
+	clear: both;
+	margin-bottom: 15px;
+}
